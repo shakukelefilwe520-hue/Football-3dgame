@@ -1,0 +1,85 @@
+# This file is used to tell Git which files to ignore in a repository
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Unity folder
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# VisualStudio cache directory
+.vs/
+.vscode/
+
+# Visual Studio cache/options directory
+.vs/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Xcode
+xcuserdata/
+*.xcworkspace
+
+# Gradle
+.gradle
+local.properties
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# IDE specific files
+*.iml
+.idea/
+*.iws
+*.ipr
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Unity Asset files
+*.unity
+*.prefab
+*.anim
+*.controller
+
+# Backup files
+*.bak
+*.tmp
+
+# Build output
+*.apk
+*.aab
+*.ipa
+*.exe
+*.app
+
+# Node modules (if using Node.js)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution
+dist/
+build/
+egg-info/
+
+# Private files
+private/
+secrets/
